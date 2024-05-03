@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notifications page</title>
+        <script src="notification-project.js"></script>
+        <link rel="stylesheet" href="notification-project.css">
+    </head>
+
+    <body onload=" updateNotificationCount()">
+        
+        <div class="input-container">
+            <button class="notification-button" onclick="notificationButtonToggle()"><button>
+
+            <input class="notification-input-box" type="text" placeholder="Enter the notification here">
+            <button onclick="addNotification()">Submit</button>
+        </div>
+        
+
+        <div class="notification-display"></div>
+    </body>
+</html>
