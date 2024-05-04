@@ -1,3 +1,46 @@
 .input-container{
-    margin: 50% 50% ;
+    margin-left: 30%;
+    margin-top: 100px;
+}
+
+.notification-button{
+    width: 50px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+.notification-input-box{
+    width: 400px;
+    height: 35px;
+    padding: 0 10px 0 10px;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 0 10px 0 10px;
+    
+
+}
+
+.submit-button{
+    width: 100px;
+    height: 35px;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.notification-display{
+    background-color: beige;
+    width: 600px;
+    margin: 20px 0 0 31%;
+    height: 400px;
+    overflow: auto;
+
 }

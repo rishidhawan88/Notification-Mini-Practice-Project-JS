@@ -48,6 +48,7 @@ function notificationButtonToggle(){
     else{
         notificationDisplay=false;
         document.querySelector('.notification-display').innerHTML="";
+        document.querySelector('.notification-display').style.backgroundColor = "transparent";
     }
 
     
@@ -62,13 +63,14 @@ function displayNotification(){
         for(let i=0;i<arr.length;i++){
             
             let tempString=arr[i].read===false?'Mark as read':'Unread';
-            str=str + `<p>${arr[i].string} </p> 
+            str=str + `<p >${arr[i].string} </p> 
                         <button onclick="markAsRead(${i});
                         ">${tempString}</button>
                         <button onclick="deleteNotification(${i});
                         ">Remove</button>`;
         }
         document.querySelector('.notification-display').innerHTML=str;
+        document.querySelector('.notification-display').style.backgroundColor = "beige";
     }
     
     
